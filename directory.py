@@ -12,7 +12,7 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/employee_details")
+@app.route("/search")
 def get_employee_details():
     """Process search and return the employee details page."""
 
